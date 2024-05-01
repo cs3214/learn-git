@@ -5,7 +5,7 @@ function min(num1, num2) {
     tmp = Math.min(num1, num2)
     console.log(tmp);
 }
-min(3, 2)
+//min(3, 2)
 
 
 //Q2-1
@@ -17,20 +17,24 @@ function helloWorldNTimes(count){
     }
 }
 
-helloWorldNTimes(0)
+//helloWorldNTimes(2)
 
 
 //Q3-1
-const numbers = [5, 4, 3, 2, 1];
+const numbers = [5, 4, 5, 2, 3];
 
-function arrayMin(numbers){
+function arrayMin(a){
     let min = numbers[0]
     console.log(min);
+
     for (let i2 = 1; i2 < numbers.length; i2++ ){
-        if(numbers[i] < min){
-            min = numbers[i]
+        if(numbers[i2] < min){
+            min = numbers[i2]
             console.log(min);
         }
     }
 }
+
+//arrayMin(numbers)
+
 
