@@ -28,6 +28,25 @@ console.log(factorial2(4));
 
 
 //Q2-1
+function fibonacci(y){
+    if(y === 0){
+        return 0
+    }
+    if(y === 1){
+        return 1
+    }
+    return fibonacci(y - 1) + fibonacci(y - 2)
+}
+
+let fibNum = fibonacci(3)
+console.log(fibNum);
+
+
+
+
+
+
+
 
 
 
