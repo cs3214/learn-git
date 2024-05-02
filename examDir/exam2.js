@@ -42,10 +42,26 @@ let fibNum = fibonacci(3)
 console.log(fibNum);
 
 
+//Q3-1
+function euclideanAlgorithm(a, b){
+    if(a % b === 0){
+        return b;
+    } else {
+        return euclideanAlgorithm(b, a % b);
+    }
+}
+let gcm = euclideanAlgorithm(8177, 3315)
+console.log(gcm);
 
 
-
-
+function square(x) {
+    return x * 2;
+  }
+  
+  const nums = [1, 2, 3, 4, 5];
+  const doubleNums = nums.map(square);
+  
+  console.log(doubleNums);
 
 
 

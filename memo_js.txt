@@ -1,0 +1,22 @@
+
+//三項演算子    左辺の条件がtrueのときIfTrueを、falseのときIfFalseを実行
+condition ? Iftrue : IfFalse;
+
+
+//array.fill    配列の全要素を同じ値に設定する関数
+const tmp = Array(n).fill();
+
+
+//配列.foreach  配列に対してforeach文を用いる
+
+
+//reduce()
+配列データの各要素を累積して1つの値にするのに最適なメソッド
+
+配列.reduce(function(累積値, 要素) { })
+
+
+//map()     
+()の中に処理を記入することで、配列の各要素に対して好きな操作をすることができます
+
+
